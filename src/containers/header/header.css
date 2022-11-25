@@ -104,12 +104,22 @@
   .gpt3__header {
     flex-direction: column;
   }
+
+  .gpt3__header-image img {
+    width: 500px;
+    height: 505px;
+  }
 }
 
 @media screen and (max-width: 650px) {
   .gpt3__header {
     padding: 2rem 4rem;
     flex-direction: column;
+  }
+
+  .gpt3__header-image img {
+    width: 100%;
+    height: 100%;
   }
   .gpt3__header h1 {
     font-size: 48px;
